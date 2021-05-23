@@ -20,7 +20,7 @@
         <p>已找回密码？<a href="/user/login">点击此处</a>进入虚拟商品购物系统</p>
     </form>
     <?php }else{?>
-        <div class="title">
+        <div class="logintitle">
             <p>虚拟商品购物系统密码找回</p>
         </div>
         <br/>
