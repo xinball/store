@@ -1,4 +1,10 @@
     <link rel="stylesheet" type="text/css" href="/static/css/login.css">
+    <style>
+        .footer{
+            background: #22222280 url(/img/bg/footer.png) center center repeat scroll;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
@@ -26,6 +32,7 @@
         <br/>
         <form action="/user/forget" method="get" autocomplete="on">
             您要重置密码的用户名为：<?php echo $user['uname']?>
+            <br/>
             <input type="hidden" name="uid" value="<?php echo $user['uid']?>"/>
             <input type="hidden" name="forget" value="<?php echo $forget?>"/>
             <label for="password">

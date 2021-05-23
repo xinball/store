@@ -1,4 +1,10 @@
 <link rel="stylesheet" type="text/css" href="/static/css/login.css">
+<style>
+    .footer{
+        background: #22222280 url(/img/bg/footer.png) center center repeat scroll;
+        color: white;
+    }
+</style>
 
 </head>
 <body>
